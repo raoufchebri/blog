@@ -109,7 +109,7 @@ export default async function Home() {
 
           <div className="mt-8 space-y-4">
             <p>
-              Hi! I'm Raouf, a Developer Advocate and an AI Engineer with over a decade of experience building and scaling global Developer Relations programs at Microsoft, ScyllaDB and Neon across AI, cloud, and distributed systems.
+              Hi! I'm Raouf, a Developer Advocate, an AI Engineer and an AWS Community Builder with over a decade of experience building and scaling global Developer Relations programs at Microsoft, ScyllaDB and Neon across AI, cloud, and distributed systems.
             </p>
             <p>
               I like to work in fast moving starups and help them grow. At Neon, I helped the platform grow from zero to nearly a million users, resulting in its $1B acquisition by Databricks. 

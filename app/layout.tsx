@@ -7,9 +7,11 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Raouf Chebri - Personal Website",
-  description: "Personal website and blog of Raouf Chebri, software developer.",
-    generator: 'v0.dev'
+  title: "Raouf Chebri",
+  description: "Developer Relations | AI Engineer | AWS Community Builder",
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
