@@ -77,6 +77,9 @@ export default async function Home() {
             <a href="#projects" className="text-sm hover:underline">
               Projects
             </a>
+            <Link href="/devrel" className="text-sm hover:underline">
+              DevRel
+            </Link>
           </div>
         </nav>
 
