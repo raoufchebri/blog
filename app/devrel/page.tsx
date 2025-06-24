@@ -19,7 +19,7 @@ export default function DevRelPage() {
     {
       icon: <TrendingUp className="h-6 w-6" />,
       title: "Neon Growth",
-      description: "Helped scale Neon from zero to nearly 1 million users, contributing to its $1B acquisition by Databricks."
+      description: "Helped scale Neon from zero to nearly 1 million users."
     },
     {
       icon: <Award className="h-6 w-6" />,
@@ -29,7 +29,7 @@ export default function DevRelPage() {
     {
       icon: <BookOpen className="h-6 w-6" />,
       title: "Technical Content",
-      description: "Published numerous technical articles and tutorials reaching thousands of developers worldwide."
+      description: "Published 35+ technical articles and tutorials reaching hundreds of thousands of developers worldwide."
     }
   ]
 
@@ -56,8 +56,13 @@ export default function DevRelPage() {
 
         <div className="space-y-6">
           <h1 className="text-4xl font-bold">Raouf Chebri</h1>
-          <p className="text-xl text-muted-foreground">
-            As a Developer Relations Engineer, my mission is to connect with developers and help solve their problems, educate them on the latest technological trends and their trade-offs, and help product and engineering teams build the best developer experience.
+          <p className="text-lg text-muted-foreground">
+          Developer Relations Engineer, AWS Community Builder, and AI Engineer with over a decade of experience building and scaling global developer programs at Microsoft and Neon.
+          <br />
+          <br />
+          As a Founding Developer Advocate, I helped grow Neon from zero to nearly a million users, resulting in its $1B acquisition by Databricks. 
+          Strong track record bridging engineering, product, and community. 
+          I experimented and built developer programs, led vector search initiatives, organized global events, wrote articles, guides on the docs and blog. and built relationships and partnerships. 
           </p>
         </div>
       </header>
@@ -117,6 +122,9 @@ export default function DevRelPage() {
         {/* Philosophy */}
         <section>
           <h2 className="text-2xl font-semibold mb-8">DevRel Philosophy</h2>
+          <p className="text-muted-foreground mb-8">
+            As a Developer Relations Engineer, my mission is to connect with developers and help solve their problems, educate them on the latest technological trends and their trade-offs, and help product and engineering teams build the best developer experience.
+          </p>
           <div className="space-y-6">
             <div className="bg-muted p-6 rounded-lg cursor-pointer hover:bg-muted/80 transition-colors" onClick={() => document.getElementById('connect-with-developers')?.scrollIntoView({ behavior: 'smooth' })}>
               <div className="flex items-start gap-4">
@@ -124,7 +132,7 @@ export default function DevRelPage() {
                   <Users className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-3">Connect & Solve</h3>
+                  <h3 className="text-lg font-medium mb-3">Connect with developers & help solve problems</h3>
                   <p className="text-muted-foreground">
                     Building genuine connections with developers and helping solve their real-world problems through direct engagement, community support, and technical guidance.
                   </p>
@@ -138,7 +146,7 @@ export default function DevRelPage() {
                   <BookOpen className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-3">Educate & Inform</h3>
+                  <h3 className="text-lg font-medium mb-3">Educate developers on the latest technological trends and their trade-offs</h3>
                   <p className="text-muted-foreground">
                     Educating developers on the latest technological trends, providing honest assessments of trade-offs, and helping them make informed technology decisions.
                   </p>
@@ -152,7 +160,7 @@ export default function DevRelPage() {
                   <Code className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-3">Developer Experience</h3>
+                  <h3 className="text-lg font-medium mb-3">Build developer experience</h3>
                   <p className="text-muted-foreground">
                     Collaborating with product and engineering teams to build exceptional developer experiences, from documentation to tooling and platform capabilities.
                   </p>
@@ -1172,7 +1180,7 @@ export default function DevRelPage() {
         </section>
 
         {/* Contact CTA */}
-        <section className="text-center py-12 bg-muted rounded-lg">
+        <section className="text-center py-12 px-12 bg-muted rounded-lg">
           <h2 className="text-2xl font-semibold mb-4">Interested in Working Together?</h2>
           <p className="text-muted-foreground mb-6">
             Whether you're looking to build a DevRel program from scratch or scale existing initiatives, 
@@ -1196,4 +1204,4 @@ export default function DevRelPage() {
       </main>
     </div>
   )
-} 
+}  
