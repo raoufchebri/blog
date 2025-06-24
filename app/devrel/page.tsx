@@ -41,17 +41,6 @@ export default function DevRelPage() {
             <ArrowLeft className="h-4 w-4" />
             Back to Home
           </Link>
-          <div className="flex gap-4">
-            <Link href="/" className="text-sm hover:underline">
-              Home
-            </Link>
-            <Link href="/#articles" className="text-sm hover:underline">
-              Articles
-            </Link>
-            <Link href="/#projects" className="text-sm hover:underline">
-              Projects
-            </Link>
-          </div>
         </nav>
 
         <div className="space-y-6">
