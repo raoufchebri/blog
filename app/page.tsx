@@ -12,9 +12,6 @@ export default function Home() {
           <h1 className="text-2xl font-semibold">Raouf Chebri</h1>
           <ThemeToggle />
         </div>
-        <p className="text-muted-foreground leading-relaxed">
-          Writing about developer tools, databases, and building things on the web.
-        </p>
         <div className="flex gap-5 mt-6 text-sm">
           <Link href="/about" className="text-muted-foreground hover:text-foreground transition-colors">About</Link>
           <a href="mailto:raouf.chebri@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">Email</a>
