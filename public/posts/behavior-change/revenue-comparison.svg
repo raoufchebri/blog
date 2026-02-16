@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#1f2937">AI Startup Growth: Process Acceleration vs Behavior Change</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b7280">Revenue or valuation changes 2023-2025</text>
+  
+  <!-- Y-axis labels -->
+  <text x="45" y="100" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">$200M+</text>
+  <text x="45" y="160" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">$100M</text>
+  <text x="45" y="220" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">$50M</text>
+  <text x="45" y="280" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">$25M</text>
+  <text x="45" y="340" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">$0</text>
+  
+  <!-- Grid lines -->
+  <line x1="55" y1="95" x2="750" y2="95" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="55" y1="155" x2="750" y2="155" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="55" y1="215" x2="750" y2="215" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="55" y1="275" x2="750" y2="275" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="55" y1="335" x2="750" y2="335" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- CURSOR - Growth bars -->
+  <rect x="80" y="320" width="50" height="15" fill="#10b981" rx="3"/>
+  <text x="105" y="332" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$1M</text>
+  <rect x="135" y="245" width="50" height="90" fill="#10b981" rx="3"/>
+  <text x="160" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$100M</text>
+  <rect x="190" y="95" width="50" height="240" fill="#10b981" rx="3"/>
+  <text x="215" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$200M</text>
+  <text x="160" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#374151">Cursor</text>
+  <text x="160" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#10b981">+19,900%</text>
+  
+  <!-- HARVEY - Growth bars (valuation proxy) -->
+  <rect x="280" y="295" width="50" height="40" fill="#10b981" rx="3"/>
+  <text x="305" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$50M</text>
+  <rect x="335" y="245" width="50" height="90" fill="#10b981" rx="3"/>
+  <text x="360" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$75M</text>
+  <text x="335" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#374151">Harvey AI</text>
+  <text x="335" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#10b981">$8B valuation</text>
+  
+  <!-- CHARACTER.AI - Declining -->
+  <rect x="455" y="275" width="50" height="60" fill="#ef4444" rx="3"/>
+  <text x="480" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$32M</text>
+  <rect x="510" y="280" width="50" height="55" fill="#ef4444" rx="3" opacity="0.7"/>
+  <text x="535" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">~$30M</text>
+  <text x="510" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#374151">Character.ai</text>
+  <text x="510" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#ef4444">Val: $2.5B→$1B ↓</text>
+  
+  <!-- REPLIKA - Declining -->
+  <rect x="605" y="285" width="50" height="50" fill="#ef4444" rx="3"/>
+  <text x="630" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$30M</text>
+  <rect x="660" y="295" width="50" height="40" fill="#ef4444" rx="3" opacity="0.7"/>
+  <text x="685" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="white">$24M</text>
+  <text x="660" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#374151">Replika</text>
+  <text x="660" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#ef4444">-20% revenue</text>
+  
+  <!-- Year labels -->
+  <text x="105" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">2023</text>
+  <text x="160" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">2024</text>
+  <text x="215" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">2025</text>
+  
+  <!-- Legend -->
+  <rect x="580" y="75" width="160" height="55" rx="6" fill="white" stroke="#e5e7eb"/>
+  <rect x="595" y="90" width="12" height="12" fill="#10b981" rx="2"/>
+  <text x="615" y="100" font-family="system-ui, sans-serif" font-size="11" fill="#374151">Process Acceleration</text>
+  <rect x="595" y="110" width="12" height="12" fill="#ef4444" rx="2"/>
+  <text x="615" y="120" font-family="system-ui, sans-serif" font-size="11" fill="#374151">Behavior Change</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#1f2937">Process Acceleration vs Behavior Change</text>
+  
+  <!-- Table Headers -->
+  <rect x="50" y="60" width="200" height="50" fill="#f3f4f6" stroke="#e5e7eb"/>
+  <rect x="250" y="60" width="250" height="50" fill="#10b981" stroke="#059669"/>
+  <rect x="500" y="60" width="250" height="50" fill="#ef4444" stroke="#dc2626"/>
+  
+  <text x="150" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#374151">Dimension</text>
+  <text x="375" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="white">Process Acceleration</text>
+  <text x="625" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="white">Behavior Change</text>
+  
+  <!-- Row 1: Who adapts -->
+  <rect x="50" y="110" width="200" height="45" fill="white" stroke="#e5e7eb"/>
+  <rect x="250" y="110" width="250" height="45" fill="#ecfdf5" stroke="#e5e7eb"/>
+  <rect x="500" y="110" width="250" height="45" fill="#fef2f2" stroke="#e5e7eb"/>
+  <text x="150" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#374151">Who adapts</text>
+  <text x="375" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#065f46">Creator / Builder</text>
+  <text x="625" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b">End user</text>
+  
+  <!-- Row 2: The job -->
+  <rect x="50" y="155" width="200" height="45" fill="white" stroke="#e5e7eb"/>
+  <rect x="250" y="155" width="250" height="45" fill="#ecfdf5" stroke="#e5e7eb"/>
+  <rect x="500" y="155" width="250" height="45" fill="#fef2f2" stroke="#e5e7eb"/>
+  <text x="150" y="183" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#374151">The job</text>
+  <text x="375" y="183" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#065f46">Same, but faster</text>
+  <text x="625" y="183" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b">New</text>
+  
+  <!-- Row 3: Output -->
+  <rect x="50" y="200" width="200" height="45" fill="white" stroke="#e5e7eb"/>
+  <rect x="250" y="200" width="250" height="45" fill="#ecfdf5" stroke="#e5e7eb"/>
+  <rect x="500" y="200" width="250" height="45" fill="#fef2f2" stroke="#e5e7eb"/>
+  <text x="150" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#374151">The output</text>
+  <text x="375" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#065f46">Unchanged</text>
+  <text x="625" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b">Novel</text>
+  
+  <!-- Row 4: Friction -->
+  <rect x="50" y="245" width="200" height="45" fill="white" stroke="#e5e7eb"/>
+  <rect x="250" y="245" width="250" height="45" fill="#ecfdf5" stroke="#e5e7eb"/>
+  <rect x="500" y="245" width="250" height="45" fill="#fef2f2" stroke="#e5e7eb"/>
+  <text x="150" y="273" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#374151">Friction</text>
+  <text x="375" y="273" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#065f46">Low (fits workflow)</text>
+  <text x="625" y="273" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b">High (new workflow)</text>
+  
+  <!-- Row 5: ROI -->
+  <rect x="50" y="290" width="200" height="45" fill="white" stroke="#e5e7eb"/>
+  <rect x="250" y="290" width="250" height="45" fill="#ecfdf5" stroke="#e5e7eb"/>
+  <rect x="500" y="290" width="250" height="45" fill="#fef2f2" stroke="#e5e7eb"/>
+  <text x="150" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#374151">ROI</text>
+  <text x="375" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#065f46">Clear and measurable</text>
+  <text x="625" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b">Abstract or emotional</text>
+  
+  <!-- Row 6: Adoption -->
+  <rect x="50" y="335" width="200" height="45" fill="white" stroke="#e5e7eb"/>
+  <rect x="250" y="335" width="250" height="45" fill="#ecfdf5" stroke="#e5e7eb"/>
+  <rect x="500" y="335" width="250" height="45" fill="#fef2f2" stroke="#e5e7eb"/>
+  <text x="150" y="363" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#374151">Adoption curve</text>
+  <text x="375" y="363" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#065f46">Crosses the chasm ✓</text>
+  <text x="625" y="363" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b">Gets stuck ✗</text>
+  
+  <!-- Examples -->
+  <text x="375" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b7280">Cursor, Harvey, Midjourney, ChatGPT</text>
+  <text x="625" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b7280">Character.ai, Replika</text>
+</svg>

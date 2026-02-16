@@ -31,6 +31,8 @@ In every case, the job stays the same. A developer still ships an app. A designe
 
 The AI accelerates the process. It doesn't ask anyone to do something new.
 
+![AI Startup Growth Comparison](/posts/behavior-change/revenue-comparison.svg)
+
 ## Deep Dive: Why Claude Code is Winning
 
 Claude Code — Anthropic's command-line coding agent — has become the tool of choice for a growing number of developers. Cursor, the AI-native code editor, went from $1 million to $200 million in annual revenue in three years, making it what some have called "the fastest-growing startup ever."
@@ -81,6 +83,8 @@ ChatGPT's success doesn't contradict the hypothesis. It confirms it. The product
 
 This pattern maps cleanly onto the technology adoption lifecycle — the curve popularized by Everett Rogers and later refined by Geoffrey Moore in *Crossing the Chasm*.
 
+![Technology Adoption Curve](/posts/behavior-change/adoption-curve.svg)
+
 Different AI products sit at different points on this curve:
 
 - **Coding agents (Claude Code, Cursor, Copilot)**: Crossing into the early majority. The 90% adoption figure among dev teams signals we're past the early-adopter phase.
@@ -89,13 +93,7 @@ Different AI products sit at different points on this curve:
 
 Here's the insight: **behavior change tolerance decreases as you move right on the curve.**
 
-| Segment | Behavior Change Tolerance | What They Buy |
-|---------|--------------------------|---------------|
-| Innovators | High | The future |
-| Early Adopters | Medium-High | Competitive edge |
-| Early Majority | Low | Productivity gains |
-| Late Majority | Very Low | Industry standard |
-| Laggards | Near Zero | "Everyone else uses it" |
+![Behavior Change Tolerance by Segment](/posts/behavior-change/tolerance-chart.svg)
 
 Innovators and early adopters will tolerate friction. They'll figure out how to use a clunky product because they're excited by the possibility. Early adopters in coding tried GitHub Copilot in its buggy early days because the upside was worth the frustration.
 
@@ -109,14 +107,7 @@ But the early majority doesn't have that patience. They need it to "just work." 
 
 We can now articulate the pattern as a clear framework:
 
-| Dimension | Process Acceleration | Behavior Change |
-|-----------|---------------------|-----------------|
-| **Who adapts** | Creator / Builder | End user |
-| **The job** | Same, but faster | New |
-| **The output** | Unchanged | Novel |
-| **Friction** | Low (fits workflow) | High (new workflow) |
-| **ROI** | Clear and measurable | Abstract or emotional |
-| **Adoption curve** | Crosses the chasm | Gets stuck before it |
+![Process Acceleration vs Behavior Change](/posts/behavior-change/framework.svg)
 
 The winning AI companies sit firmly in the left column:
 
